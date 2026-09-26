@@ -1,0 +1,199 @@
+/* <==============Chung=============> */
+.hero h1 {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  background-color: #f3c83d8d;
+  background-image: url("/img/AnhNen.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+}
+/* <==============Header=============> */
+#flat {
+  width: 18rem;
+}
+#logo {
+  width: 14rem;
+  margin-right: -2.5rem;
+}
+.bodyheader {
+  display: flex;
+  margin-top: 0.2rem;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 7.5rem;
+}
+.nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100rem;
+  margin-top: 5rem;
+  height: 7.5rem;
+  border-radius: 999px;
+  box-shadow:
+    rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color: rgba(255, 255, 255, 0.127);
+}
+nav a {
+  font-size: 2.5rem;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 7rem;
+  box-sizing: border-box;
+  margin: 0 1rem;
+  color: #4a2e1b;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+nav a:hover {
+  color: rgb(255, 0, 0);
+  text-shadow: 1px 0 1px;
+}
+/* <==============Hero=============> */
+.hero {
+  margin-top: 4rem;
+}
+#Name {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(3.5rem, 7vw, 7rem);
+  font-weight: 700;
+  color: #6b241c;
+  word-spacing: 1rem;
+  text-align: center;
+  text-shadow: 1.5px 0 3px black;
+  margin-bottom: 4rem;
+  padding: 1rem;
+}
+.bodyhero {
+  width: 80%;
+  margin: auto;
+  border: 1rem double #6b241c;
+  border-radius: 2rem;
+  display: flex;
+}
+#anhhero {
+  width: 30rem;
+  margin-left: 8rem;
+  border-radius: 2rem;
+  margin: 4rem 12rem;
+}
+#tho {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 2.6rem;
+  line-height: 1.8;
+  color: #000000;
+  margin-top: 5rem;
+  margin-left: 3rem;
+  text-shadow: 0.5px 0 1 #4a2e1b;
+}
+h4 {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: end;
+}
+/* <==============Main=============> */
+.galery {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+  height: 150rem;
+  margin: 4rem auto;
+  border: 1rem double #6b241c;
+  border-radius: 2rem;
+}
+.galery img {
+  width: 50rem;
+  height: 34rem;
+  border-radius: 2rem;
+  margin: 7rem;
+}
+.fa-camera {
+  color: #6b241c;
+  position: absolute;
+  font-size: 4rem;
+  white-space: nowrap;
+  left: 48%;
+  margin-top: 2rem;
+}
+figcaption {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: -6rem;
+}
+/* <==============Footer=============> */
+footer div {
+  display: flex;
+  background-color: #3f1814;
+  margin-right: -4rem;
+  margin-left: -4rem;
+  height: 5rem;
+}
+#up {
+  color: #000000;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 10rem;
+  font-size: 2rem;
+  border-radius: 999px;
+  margin: auto;
+  background-color: #904b44;
+}
+#up:hover {
+  color: rgb(255, 230, 0);
+  background-color: rgb(255, 0, 0);
+}
+/* <==============Button=============> */
+.contact {
+  position: fixed;
+  right: 2%;
+  bottom: 5%;
+  width: 5rem;
+  height: 15rem;
+  z-index: 100;
+}
+.but {
+  width: 5rem;
+  box-shadow:
+    rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 999px;
+}
