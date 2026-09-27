@@ -159,6 +159,7 @@ figure {
 section {
   display: flex;
   margin-top: 7rem;
+  margin-left: 2rem;
   margin-right: 2rem;
   line-height: 3rem;
 }
