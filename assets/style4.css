@@ -14,7 +14,7 @@ body {
   margin-left: 4rem;
   margin-right: 4rem;
   background-color: #f3c83d8d;
-  background-image: url("../img/Tieusu/nencachmang.png");
+  background-image: url("../img/Disan/nendisan.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -99,7 +99,7 @@ nav a:hover {
   display: flex;
 }
 #anhhero {
-  width: 30rem;
+  width: 35rem;
   height: 33rem;
   margin-left: 8rem;
   border-radius: 2rem;
@@ -175,6 +175,18 @@ section {
   font-size: 2rem;
   font-weight: bold;
   -webkit-text-stroke: 0.015rem #f3e6d0;
+}
+.giai-doan:nth-child(4) img {
+  width: 30rem;
+}
+.giai-doan:nth-child(5) img {
+  width: 30rem;
+}
+.giai-doan:nth-child(4) div {
+  margin-top: 10rem;
+}
+.giai-doan:nth-child(5) div {
+  margin-top: 10rem;
 }
 /* <==============Footer=============> */
 footer div {

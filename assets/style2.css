@@ -154,6 +154,7 @@ figcaption {
 }
 figure {
   margin-top: -7rem;
+  font-size: 2rem;
 }
 section {
   display: flex;
@@ -166,7 +167,7 @@ section {
   font-weight: bold;
 }
 .giai-doan p {
-  font-family: "Roboto", sans-serif;
+  font-family:'Times New Roman', Times, serif
   text-align: justify;
   margin-top: 2rem;
   font-size: 2rem;
@@ -224,6 +225,27 @@ footer div {
 }
 * {
   box-sizing: border-box;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #efe3cf;
+  border-radius: 999px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3f1814;
+  border-radius: 999px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 /* <==============Mobile=============> */
 @media (max-width: 768px) {
