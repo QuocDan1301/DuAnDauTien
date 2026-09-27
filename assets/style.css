@@ -1,4 +1,7 @@
 /* <==============Chung=============> */
+* {
+  box-sizing: border-box;
+}
 .hero h1 {
   font-family: "Great Vibes", cursive;
   font-weight: 400;
@@ -196,4 +199,120 @@ footer div {
     rgba(0, 0, 0, 0.09) 0px 16px 8px,
     rgba(0, 0, 0, 0.09) 0px 32px 16px;
   border-radius: 999px;
+}
+@media (max-width: 768px) {
+  body {
+    margin: 0 1.5rem;
+  }
+
+  /* Cờ, logo và thanh điều hướng */
+  .bodyheader {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  #flat {
+    width: 10rem;
+  }
+
+  #logo {
+    width: 8rem;
+    margin-right: 0;
+  }
+
+  .nav {
+    order: 3;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 2rem;
+  }
+
+  nav ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  nav a {
+    width: 100%;
+    height: auto;
+    min-height: 5rem;
+    margin: 0;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  /* Ảnh và bài thơ */
+  #Name {
+    margin-bottom: 2rem;
+    word-spacing: normal;
+  }
+
+  .bodyhero {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    border-width: 0.5rem;
+  }
+
+  #anhhero {
+    display: block;
+    width: min(100%, 30rem);
+    margin: 0 auto;
+  }
+
+  #tho {
+    margin: 2rem 0 0;
+    font-size: 1.8rem;
+    line-height: 1.7;
+  }
+
+  /* Thư viện ảnh */
+  .galery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    border-width: 0.5rem;
+  }
+
+  .fa-camera {
+    position: static;
+    justify-self: center;
+    margin: 0;
+  }
+
+  .galery figure {
+    min-width: 0;
+    margin: 0;
+  }
+
+  .galery img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  figcaption {
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+  }
+
+  footer div {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+
+  .contact,
+  .but {
+    width: 4rem;
+  }
 }
