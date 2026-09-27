@@ -200,10 +200,13 @@ footer div {
     rgba(0, 0, 0, 0.09) 0px 32px 16px;
   border-radius: 999px;
 }
+<<<<<<< HEAD
 * {
   box-sizing: border-box;
 }
 /* <==============Mobile=============> */
+=======
+>>>>>>> f6daba1a2aef02c0e3185b197a889b632958680b
 @media (max-width: 768px) {
   body {
     margin: 0 1.5rem;
