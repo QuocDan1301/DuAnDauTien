@@ -364,3 +364,38 @@ footer div {
     width: 4rem;
   }
 }
+@media (max-width: 768px) {
+  section {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem 0;
+    line-height: 1.6;
+  }
+
+  section > * {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .giai-doan h2 {
+    font-size: 2.4rem;
+  }
+
+  .giai-doan p {
+    font-size: 1.7rem;
+    overflow-wrap: break-word;
+  }
+
+  .galery .fa-solid {
+    position: static;
+    justify-self: center;
+    margin: 0;
+  }
+}
