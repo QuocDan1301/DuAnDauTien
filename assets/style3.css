@@ -14,7 +14,7 @@ body {
   margin-left: 4rem;
   margin-right: 4rem;
   background-color: #f3c83d8d;
-  background-image: url("../img/Tieusu/nentieusu.png");
+  background-image: url("../img/Tieusu/nencachmang.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -99,7 +99,8 @@ nav a:hover {
   display: flex;
 }
 #anhhero {
-  width: 35rem;
+  width: 30rem;
+  height: 33rem;
   margin-left: 8rem;
   border-radius: 2rem;
   margin: 6rem 12rem;
@@ -159,6 +160,7 @@ section {
   display: flex;
   margin-top: 7rem;
   margin-right: 2rem;
+  margin-left: 2rem;
   line-height: 3rem;
 }
 .giai-doan h2 {
