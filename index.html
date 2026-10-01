@@ -3,22 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/reset.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CU+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
-    />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/login-signup.css" />
     <link
       rel="apple-touch-icon"
       sizes="57x57"
-      href="./img/icon/aapple-icon-57x57.png"
+      href="./img/icon/apple-icon-57x57.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="./img/icon/android-icon-512x512.png"
     />
     <link
       rel="apple-touch-icon"
@@ -69,12 +64,6 @@
     <link
       rel="icon"
       type="image/png"
-      sizes="512x512"
-      href="./img/icon/android-icon-512x512.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
       sizes="32x32"
       href="./img/icon/favicon-32x32.png"
     />
@@ -94,125 +83,33 @@
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
-    <title>Vị lãnh tụ vĩ đại</title>
+    <title>Đăng nhập</title>
   </head>
   <body>
-    <div class="contact">
-      <div>
-        <a
-          href="https://www.facebook.com/crisvuliz/?locale=vi_VN"
-          target="_blank"
-          ><img class="but face" src="./img/face.png" alt="logoface"
-        /></a>
+    <form action="">
+      <div class="container">
+        <h1>Đăng nhập</h1>
+        <input
+          id="username"
+          type="text"
+          name="username"
+          placeholder="Username"
+          required
+        />
+        <br />
+        <input
+          id="password"
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+        <br />
+        <button id="login-btn" type="submit">
+          <a href="./trangchu.html">Login</a>
+        </button>
+        <p>Bạn chưa có tài khoản? <a href="signup.html">Đăng kí ngay!</a></p>
       </div>
-      <div>
-        <a href="https://discord.com/users/1288876750066946113" target="_blank"
-          ><img class="but dis" src="./img/dis.png" alt="logodis"
-        /></a>
-      </div>
-      <div>
-        <a href="https://zalo.me/0336856477" target="_blank"
-          ><img class="but zalo" src="./img/zalo.png" alt="logozalo"
-        /></a>
-      </div>
-    </div>
-    <header>
-      <div class="header">
-        <div class="main-content">
-          <div class="bodyheader">
-            <img id="flat" src="./img/CoVN.webp" alt="Cờ việt nam" />
-            <nav class="nav">
-              <ul>
-                <li>
-                  <a href="/DuAnDauTien/">Trang chủ</a>
-                </li>
-                <li><a href="/DuAnDauTien/tieusu.html">Tiểu sử</a></li>
-                <li>
-                  <a href="/DuAnDauTien/cachmang.html">Cách mạng</a>
-                </li>
-                <li>
-                  <a href="/DuAnDauTien/disan.html">Di sản</a>
-                </li>
-              </ul>
-            </nav>
-            <img id="logo" src="./img/logo.png" alt="Logo" />
-          </div>
-        </div>
-      </div>
-    </header>
-    <main>
-      <div class="hero">
-        <div class="main-content">
-          <div id="Name">Chủ Tịch Hồ Chí Minh</div>
-          <div class="bodyhero">
-            <div>
-              <img id="anhhero" src="./img/AnhHero.jpg" alt="Ảnh bác" />
-            </div>
-            <div id="tho">
-              "Ai yêu các nhi đồng <br />Bằng Bác Hồ Chí Minh? <br />Tính các
-              cháu ngoan ngoãn, <br />Mặt các cháu xinh xinh. <br />Mong các
-              cháu cố gắng <br />Thi đua học và hành. <br />Tuổi nhỏ làm việc
-              nhỏ, <br />Tùy theo sức của mình"
-              <h4>Trích "Ai yêu các Nhi Đồng"- Hồ Chí Minh</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="galery">
-        <i class="fa-regular fa-camera"></i>
-        <figure>
-          <img src="./img/ab3.jpg" alt="Bác thăm nom bà con." />
-          <figcaption>Bác thăm nom bà con.</figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./img/ab2.jpg"
-            alt="Bác dùng thử máy cấy lúa cải tiến tại Hà Nội năm 1960."
-          />
-          <figcaption>
-            Bác dùng thử máy cấy lúa cải tiến tại Hà Nội năm 1960.
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./img/abs1.png"
-            alt="Bác quàng khăn đỏ cho một đại biểu thiếu nhi Thủ đô năm 1960."
-          />
-          <figcaption>
-            Bác quàng khăn đỏ cho một đại biểu thiếu nhi Thủ đô năm 1960.
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./img/abs4.jpg"
-            alt="Bác đi cùng mọi người trên lối nhỏ giữa khu vườn."
-          />
-          <figcaption>
-            Bác đi cùng mọi người trên lối nhỏ giữa khu vườn.
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./img/ab5.jpg"
-            alt="Bác đến thăm bà con đang gặt lúa ở Thái Nguyên năm 1954."
-          />
-          <figcaption>
-            Bác đến thăm bà con đang gặt lúa ở Thái Nguyên năm 1954.
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="./img/ab6.jpg"
-            alt="Bác cuốc đất, trồng rau trong vườn Phủ Chủ tịch năm 1957."
-          />
-          <figcaption>
-            Bác cuốc đất, trồng rau trong vườn Phủ Chủ tịch năm 1957.
-          </figcaption>
-        </figure>
-      </div>
-    </main>
-    <footer>
-      <div><a id="up" href="#">Trở lên</a></div>
-    </footer>
+    </form>
   </body>
 </html>
